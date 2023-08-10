@@ -1,28 +1,44 @@
+/* HypnoCard.scss */
+
 .hypno-card {
-    padding: 1em 2em;
-    color: #c8b9b9;
-    .hypno-card-name {
-        font-size: 3em;
-        animation: pulsate 2s infinite;
-    }
-    .hypno-card-title {
-        font-size: 2em;
-    }
-    .hypno-card-email {
-        color: #c6ced6; // Default link color
-        text-decoration: none;
-      
-        &:hover {
-          color: #fd58ad; // Color on hover
-          text-decoration: underline;
-        }
-      
-        &:active {
-          color: #0056b3; // Color on active
-        }
-      
-        &:visited {
-          color: #cc0099; // Color for visited links
-        }
-      }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #190404;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hypno-card-content {
+  padding: 20px;
+}
+
+.hypno-card-name {
+  color: #f6d8d8;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.hypno-card-title {
+  font-size: 1rem;
+  margin: 8px 0;
+  color: #e2caca;
+}
+
+.hypno-card-phone,
+.hypno-card-email,
+a {
+  font-size: 0.9rem;
+  color: #b19999;
+  margin: 6px 0;
+}
+
+.hypno-card-qrcode {
+  margin-top: 20px;
 }
