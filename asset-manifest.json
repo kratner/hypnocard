@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hypnocard/static/css/main.6ed1d3ce.css",
-    "main.js": "/hypnocard/static/js/main.8935ee55.js",
+    "main.css": "/hypnocard/static/css/main.c5e1a763.css",
+    "main.js": "/hypnocard/static/js/main.ef64ad32.js",
     "static/js/787.c2995f90.chunk.js": "/hypnocard/static/js/787.c2995f90.chunk.js",
     "index.html": "/hypnocard/index.html",
-    "main.6ed1d3ce.css.map": "/hypnocard/static/css/main.6ed1d3ce.css.map",
-    "main.8935ee55.js.map": "/hypnocard/static/js/main.8935ee55.js.map",
+    "main.c5e1a763.css.map": "/hypnocard/static/css/main.c5e1a763.css.map",
+    "main.ef64ad32.js.map": "/hypnocard/static/js/main.ef64ad32.js.map",
     "787.c2995f90.chunk.js.map": "/hypnocard/static/js/787.c2995f90.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ed1d3ce.css",
-    "static/js/main.8935ee55.js"
+    "static/css/main.c5e1a763.css",
+    "static/js/main.ef64ad32.js"
   ]
 }
