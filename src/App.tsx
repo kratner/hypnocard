@@ -10,6 +10,20 @@ function App() {
         phone="650-516-7281"
         email="keith.ratner@gmail.com"
         cardUrl="https://kratner.github.io/hypnocard"
+        links={[
+          {
+            url: "https://linkedin.com/keithratner",
+            linkname: "LinkedIn",
+          },
+          {
+            url: "https://github.com/kratner",
+            linkname: "GitHub",
+          },
+          {
+            url: "https://behance.net/kratner",
+            linkname: "Behance",
+          },
+        ]}
       />
     </div>
   );
