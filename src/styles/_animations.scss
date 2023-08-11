@@ -1,11 +1,58 @@
 @keyframes into-focus {
   0% {
     // transform: scale(1);
-    filter: blur(15px);
+    filter: blur(0px);
   }
-
+  50% {
+    filter: blur(2px);
+  }
   100% {
     // transform: scale(1);
     filter: blur(0px);
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes color-fader {
+  0% {
+    color: #f39999;
+  }
+  25% {
+    color: #b2ed32;
+  }
+  50% {
+    color: #26f4d1;
+  }
+  75% {
+    color: #3272f3;
+  }
+  100% {
+    color: #ef2580;
+  }
+}
+@keyframes background-color-fader {
+  0% {
+    background-color: #280404;
+  }
+  25% {
+    background-color: #0b144b;
+  }
+  50% {
+    background-color: #560e42;
+  }
+  75% {
+    background-color: #1f3509;
+  }
+  100% {
+    background-color: #280404;
   }
 }
