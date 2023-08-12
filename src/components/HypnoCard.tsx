@@ -3,7 +3,7 @@ import QRCode from "react-qr-code"; // Import the QRCode component
 
 interface Link {
   url: string;
-  target?: string;
+  target?: "_self" | "_blank" | "_parent" | "_top";
   title?: string;
   linkname: string;
 }

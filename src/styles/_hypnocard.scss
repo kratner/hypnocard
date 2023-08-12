@@ -1,11 +1,11 @@
 /* HypnoCard.scss */
 
 .hypno-card {
+  font-family: "Century Gothic", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  // background-color: #190404;
   animation: background-color-fader 10s infinite;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -16,25 +16,21 @@
 }
 
 .hypno-card-content {
+  background-color: #021726;
   display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(300px, 1fr)
-  ); /* Responsive columns */
+  grid-template-columns: auto auto auto;
   gap: 20px; /* Gap between columns */
   max-width: 900px; /* Limit the maximum width of the content */
   margin: 0 auto; /* Center the content horizontally */
   padding: 20px;
+  align-items: center;
 }
 
 .hypno-card-name {
   color: #f6d8d8;
   font-size: 3.5rem;
+  font-weight: bold;
   margin: 0;
-  animation:
-    into-focus 3s infinite,
-    pulse 3s infinite,
-    color-fader 10s infinite;
 }
 
 .hypno-card-title {
@@ -66,6 +62,7 @@
 
 .hypno-card-link {
   font-size: 1.25rem;
+  font-weight: bold;
   a {
     color: #b19999;
     &:hover {

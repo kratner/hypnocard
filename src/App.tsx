@@ -14,14 +14,26 @@ function App() {
           {
             url: "https://linkedin.com/keithratner",
             linkname: "LinkedIn",
+            title: "Keith Ratner on LinkedIn",
+            target: "_blank",
           },
           {
             url: "https://github.com/kratner",
             linkname: "GitHub",
+            title: "Keith Ratner on GitHub",
+            target: "_self",
           },
           {
             url: "https://behance.net/kratner",
             linkname: "Behance",
+            title: "Keith Ratner on Behance",
+            target: "_self",
+          },
+          {
+            url: "https://keithratner.live",
+            linkname: "KeithRatner.Live",
+            title: "Keith Ratner dot Live",
+            target: "_self",
           },
         ]}
       />
