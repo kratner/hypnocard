@@ -12,7 +12,7 @@ function App() {
         cardUrl="https://kratner.github.io/hypnocard"
         links={[
           {
-            url: "https://linkedin.com/keithratner",
+            url: "https://www.linkedin.com/in/keithratner/",
             linkname: "LinkedIn",
             title: "Keith Ratner on LinkedIn",
             target: "_blank",
