@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hypnocard/static/css/main.3ba19d6d.css",
+    "main.css": "/hypnocard/static/css/main.2188b5ab.css",
     "main.js": "/hypnocard/static/js/main.2d88e1d1.js",
     "static/js/787.c2995f90.chunk.js": "/hypnocard/static/js/787.c2995f90.chunk.js",
     "static/media/CenturyGothicBoldItalic.woff": "/hypnocard/static/media/CenturyGothicBoldItalic.29d993e33e789960c4a1.woff",
@@ -12,12 +12,12 @@
     "static/media/CenturyGothic.woff2": "/hypnocard/static/media/CenturyGothic.73667ce50aaf1f99de0a.woff2",
     "static/media/CenturyGothicBold.woff2": "/hypnocard/static/media/CenturyGothicBold.43a104439b4609737c40.woff2",
     "index.html": "/hypnocard/index.html",
-    "main.3ba19d6d.css.map": "/hypnocard/static/css/main.3ba19d6d.css.map",
+    "main.2188b5ab.css.map": "/hypnocard/static/css/main.2188b5ab.css.map",
     "main.2d88e1d1.js.map": "/hypnocard/static/js/main.2d88e1d1.js.map",
     "787.c2995f90.chunk.js.map": "/hypnocard/static/js/787.c2995f90.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ba19d6d.css",
+    "static/css/main.2188b5ab.css",
     "static/js/main.2d88e1d1.js"
   ]
 }
