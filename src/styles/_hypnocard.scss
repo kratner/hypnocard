@@ -19,7 +19,9 @@
   background-color: #021726;
   display: grid;
   grid-template-columns: auto auto auto;
+  // grid-template-columns: 33% 33% 33%;
   gap: 20px; /* Gap between columns */
+  min-width: 780px;
   max-width: 900px; /* Limit the maximum width of the content */
   margin: 0 auto; /* Center the content horizontally */
   padding: 20px;
@@ -72,5 +74,5 @@
 }
 
 .hypno-card-column {
-  padding: 10px;
+  padding: 20px;
 }
