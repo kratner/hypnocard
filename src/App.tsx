@@ -1,3 +1,4 @@
+import GoogleAnalytics from "./components/GoogleAnalytics";
 import HypnoCard from "./components/HypnoCard";
 import "./styles/main.scss";
 
@@ -37,6 +38,7 @@ function App() {
           },
         ]}
       />
+      <GoogleAnalytics measurementId="G-L0W2XGP0LT" />
     </div>
   );
 }
