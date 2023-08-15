@@ -32,3 +32,5 @@ const GoogleAnalytics: React.FC<GoogleAnalyticsProps> = ({ measurementId }) => {
 };
 
 export default GoogleAnalytics;
+
+export type { GoogleAnalyticsProps };
